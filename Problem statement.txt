@@ -1,0 +1,14 @@
+Custom named entity recognizer using Spacy.
+
+Here we are passing .JSON file as a annotated custom entity dataset 
+as a training dataset.
+
+How to create .json training dataset.
+Just visit below link and you will get idea how to use it.
+https://rasahq.github.io/rasa-nlu-trainer/
+
+After generating json file from above webpage we have to pass it to function.
+
+We also need output directory where our library can and store and whenever needed it can load.
+
+
