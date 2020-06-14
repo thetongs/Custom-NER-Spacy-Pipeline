@@ -12,5 +12,13 @@ In this simple project we are going to extract "profession" in free text.
 ## https://rasahq.github.io/rasa-nlu-trainer/ - Use this to create training .json file
 ![](images/relu.PNG)
 
+Once you visit above site do below steps.
+1. Clear existing sentences.
+2. Add new training sentence.
+3. Add Intent for that sentence.
+4. Select the mast of sentence which we want to extract refer above image.
+5. Add the label for that selected text.
+6. After adding couple of sentences click on download button.
+7. Download and save that file in same folder as your .py
 
 
