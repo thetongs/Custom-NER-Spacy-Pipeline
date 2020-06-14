@@ -31,7 +31,7 @@ def prepare_train_data(input_filepath):
         print(err)
         return []
  
-# Change training_file.json to your .json training file
+# Change profession_train.json to your .json training file
 # Change output_dir to path where we want to store new module    
 @plac.annotations(
     model=("Model name. Defaults to blank 'en' model.", "option", "m", str),
