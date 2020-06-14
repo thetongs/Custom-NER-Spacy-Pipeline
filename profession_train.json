@@ -1,0 +1,42 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": " I am physician assistant and a female consumer reported about AE.",
+        "intent": "Medical_Domain",
+        "entities": [
+          {
+            "start": 6,
+            "end": 25,
+            "value": "physician assistant",
+            "entity": "Profession"
+          }
+        ]
+      },
+      {
+        "text": " I am a pharmacy technician and a consumer reported to me. ",
+        "intent": "Medical_Domain",
+        "entities": [
+          {
+            "start": 8,
+            "end": 27,
+            "value": "pharmacy technician",
+            "entity": "Profession"
+          }
+        ]
+      },
+      {
+        "text": "I am physician assistant and a nurse reported to me. ",
+        "intent": "Medical_Domain",
+        "entities": [
+          {
+            "start": 5,
+            "end": 24,
+            "value": "physician assistant",
+            "entity": "Profession"
+          }
+        ]
+      }
+    ]
+  }
+}
