@@ -10,7 +10,7 @@ At that time we use Custom NER by adding pipeline and using .json as training da
 In this simple project we are going to extract "profession" in free text.
 
 ## https://rasahq.github.io/rasa-nlu-trainer/ - Use this to create training .json file
-![](images/relu.png)
+![](images/relu.PNG)
 
 
 
