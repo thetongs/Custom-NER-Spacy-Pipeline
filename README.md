@@ -12,3 +12,5 @@ In this simple project we are going to extract "profession" in free text.
 ## https://rasahq.github.io/rasa-nlu-trainer/ - Use this to create training .json file
 
 
+
+
