@@ -38,7 +38,7 @@ def prepare_train_data(input_filepath):
     output_dir=("Optional output directory", "option", "o", Path),
     n_iter=("Number of training iterations", "option", "n", int),
 )
-def train(input_filepath = "training_file.json", output_dir = "Path_where_it_store_module", model=None, n_iter=100):
+def train(input_filepath = "profession_train.json", output_dir = "Path_where_it_store_module", model=None, n_iter=100):
     """Load the model, set up the pipeline and train the entity recognizer."""
     if model is not None:
         nlp = spacy.load(model)  # load existing spaCy model
