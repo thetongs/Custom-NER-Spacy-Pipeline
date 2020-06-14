@@ -1,6 +1,7 @@
 # Custom-NER-Spacy-Pipeline
 Adding new pipeline for custom NER operations using .JSON as training data.
 
+## Introduction
 When it comes to identify entities from free text in python spacy we use default entity recognition approach.
 But when we have domain specific entities which we want to extract from free text at that very time old approach will not give you 100% results.
 
